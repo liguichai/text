@@ -10,7 +10,7 @@ void setup() {
 
 // 基于millis()的非阻塞实现
 unsigned long previousMillis = 0;
-const long interval = 500;
+const long interval = 1000;
 
 void loop() {
   unsigned long currentMillis = millis();
